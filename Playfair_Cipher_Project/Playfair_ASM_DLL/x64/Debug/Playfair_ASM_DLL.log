@@ -2,7 +2,7 @@
   dllmain.cpp
   Playfair_ASM_Wrapper.cpp
   Generating Code...
-     Creating library C:\Users\filip\source\repos\Playfair_Cipher_Project\x64\Debug\Playfair_ASM_DLL.lib and object C:\Users\filip\source\repos\Playfair_Cipher_Project\x64\Debug\Playfair_ASM_DLL.exp
-  Playfair_ASM_DLL.vcxproj -> C:\Users\filip\source\repos\Playfair_Cipher_Project\x64\Debug\Playfair_ASM_DLL.dll
-  'pwsh.exe' is not recognized as an internal or external command,
-  operable program or batch file.
+     Creating library C:\Users\pc\Documents\Playfair-Cipher\Playfair_Cipher_Project\x64\Debug\Playfair_ASM_DLL.lib and object C:\Users\pc\Documents\Playfair-Cipher\Playfair_Cipher_Project\x64\Debug\Playfair_ASM_DLL.exp
+  Playfair_ASM_DLL.vcxproj -> C:\Users\pc\Documents\Playfair-Cipher\Playfair_Cipher_Project\x64\Debug\Playfair_ASM_DLL.dll
+  C:\Users\pc\Documents\Playfair-Cipher\Playfair_Cipher_Project\x64\Debug\Playfair_ASM_DLL.dll
+  1 File(s) copied

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\filip\\source\\repos\\Playfair_Cipher_Project\\Playfair_UI_App\\Playfair_UI_App.csproj": {}
+    "C:\\Users\\pc\\Documents\\Playfair-Cipher\\Playfair_Cipher_Project\\Playfair_UI_App\\Playfair_UI_App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\filip\\source\\repos\\Playfair_Cipher_Project\\Playfair_UI_App\\Playfair_UI_App.csproj": {
+    "C:\\Users\\pc\\Documents\\Playfair-Cipher\\Playfair_Cipher_Project\\Playfair_UI_App\\Playfair_UI_App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\filip\\source\\repos\\Playfair_Cipher_Project\\Playfair_UI_App\\Playfair_UI_App.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Documents\\Playfair-Cipher\\Playfair_Cipher_Project\\Playfair_UI_App\\Playfair_UI_App.csproj",
         "projectName": "Playfair_UI_App",
-        "projectPath": "C:\\Users\\filip\\source\\repos\\Playfair_Cipher_Project\\Playfair_UI_App\\Playfair_UI_App.csproj",
-        "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\filip\\source\\repos\\Playfair_Cipher_Project\\Playfair_UI_App\\obj\\",
+        "projectPath": "C:\\Users\\pc\\Documents\\Playfair-Cipher\\Playfair_Cipher_Project\\Playfair_UI_App\\Playfair_UI_App.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pc\\Documents\\Playfair-Cipher\\Playfair_Cipher_Project\\Playfair_UI_App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -69,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

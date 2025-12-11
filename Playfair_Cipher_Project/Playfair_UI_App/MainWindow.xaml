@@ -3,10 +3,68 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Playfair_UI_App"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Playfair Cipher: C vs ASM Benchmark" Height="550" Width="800"
+        Background="#F5F5F5" ResizeMode="CanResizeWithGrip">
 
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="Playfair Cipher Benchmark" FontSize="24" FontWeight="Bold" Foreground="#333" Margin="0,0,0,20"/>
+
+        <Grid Grid.Row="1" Margin="0,0,0,15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Cipher Key:" VerticalAlignment="Center" FontWeight="SemiBold" Margin="0,0,10,0"/>
+            <TextBox x:Name="TxtKey" Grid.Column="1" Height="28" Padding="5" Text="PLAYFAIR EXAMPLE" VerticalContentAlignment="Center"/>
+
+            <StackPanel Grid.Column="2" Orientation="Horizontal" Margin="15,0,0,0">
+                <RadioButton x:Name="RbEncrypt" Content="Encrypt" IsChecked="True" VerticalAlignment="Center" Margin="0,0,10,0"/>
+                <RadioButton x:Name="RbDecrypt" Content="Decrypt" VerticalAlignment="Center"/>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="Input Text:" FontWeight="SemiBold" Margin="0,0,0,5"/>
+            <TextBox x:Name="TxtInput" Grid.Row="1" TextWrapping="Wrap" AcceptsReturn="True" 
+                     VerticalScrollBarVisibility="Auto" FontFamily="Consolas" Padding="5"
+                     Text="THIS IS A SECRET MESSAGE TO BENCHMARK"/>
+        </Grid>
+
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,15">
+            <Button x:Name="BtnRunC" Content="Run C Implementation" Width="160" Height="40" Margin="0,0,20,0" Click="BtnRunC_Click"/>
+            <Button x:Name="BtnRunAsm" Content="Run ASM (AVX2)" Width="160" Height="40" Click="BtnRunAsm_Click" FontWeight="Bold"/>
+        </StackPanel>
+
+        <Grid Grid.Row="4">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="Output Result:" FontWeight="SemiBold" Margin="0,0,0,5"/>
+            <TextBox x:Name="TxtOutput" Grid.Row="1" TextWrapping="Wrap" IsReadOnly="True" 
+                     VerticalScrollBarVisibility="Auto" FontFamily="Consolas" Background="#EFEFEF" Padding="5"/>
+        </Grid>
+
+        <Border Grid.Row="5" BorderBrush="#CCC" BorderThickness="0,1,0,0" Margin="0,15,0,0" Padding="0,10,0,0">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Status: " FontWeight="Bold"/>
+                <TextBlock x:Name="LblStatus" Text="Ready" Foreground="Blue"/>
+            </StackPanel>
+        </Border>
     </Grid>
 </Window>

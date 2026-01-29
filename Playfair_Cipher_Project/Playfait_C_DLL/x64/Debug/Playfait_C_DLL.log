@@ -1,10 +1,12 @@
 ﻿  dllmain.cpp
   Playfair_C_Impl.cpp
-C:\Users\pc\Documents\Playfair-Cipher\Playfair_Cipher_Project\Playfait_C_DLL\Playfair_C_Impl.cpp(96,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\pc\Documents\Playfair-Cipher\Playfair_Cipher_Project\Playfait_C_DLL\Playfair_C_Impl.cpp(130,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\pc\Documents\Playfair-Cipher\Playfair_Cipher_Project\Playfait_C_DLL\Playfair_C_Impl.cpp(161,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  Generating Code...
-     Creating library C:\Users\pc\Documents\Playfair-Cipher\Playfair_Cipher_Project\x64\Debug\Playfair_C_DLL.lib and object C:\Users\pc\Documents\Playfair-Cipher\Playfair_Cipher_Project\x64\Debug\Playfair_C_DLL.exp
-  Playfait_C_DLL.vcxproj -> C:\Users\pc\Documents\Playfair-Cipher\Playfair_Cipher_Project\x64\Debug\Playfair_C_DLL.dll
-  C:\Users\pc\Documents\Playfair-Cipher\Playfair_Cipher_Project\x64\Debug\Playfair_C_DLL.dll
+  Generowanie kodu...
+C:\Users\filip\source\repos\Playfair-Cipher\Playfair_Cipher_Project\Playfait_C_DLL\Playfair_C_Impl.cpp(96,13): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\filip\source\repos\Playfair-Cipher\Playfair_Cipher_Project\Playfait_C_DLL\Playfair_C_Impl.cpp(130,13): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\filip\source\repos\Playfair-Cipher\Playfair_Cipher_Project\Playfait_C_DLL\Playfair_C_Impl.cpp(161,13): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+     Trwa tworzenie biblioteki C:\Users\filip\Source\Repos\Playfair-Cipher\Playfair_Cipher_Project\x64\Debug\Playfair_C_DLL.lib i obiektu C:\Users\filip\Source\Repos\Playfair-Cipher\Playfair_Cipher_Project\x64\Debug\Playfair_C_DLL.exp
+  Playfait_C_DLL.vcxproj -> C:\Users\filip\Source\Repos\Playfair-Cipher\Playfair_Cipher_Project\x64\Debug\Playfair_C_DLL.dll
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
+  C:\Users\filip\Source\Repos\Playfair-Cipher\Playfair_Cipher_Project\x64\Debug\Playfair_C_DLL.dll
   1 File(s) copied
